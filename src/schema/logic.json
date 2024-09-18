@@ -1,0 +1,7 @@
+{
+  "fields": {
+    "llop": {
+      "type": "checkbox"
+    }
+  }
+}

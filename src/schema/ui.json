@@ -1,0 +1,122 @@
+{
+  "properties": {
+    "step-1": {
+      "id": "step-1",
+      "type": "step",
+      "children": [
+        "additional-benefits-accordion",
+        "replacement-cost-accordion"
+      ]
+    },
+    "additional-benefits-accordion": {
+      "id": "additional-benefits-accordion",
+      "type": "accordion",
+      "settings": {
+        "title": "Additional Benefits"
+      },
+      "children": [
+        "protection-for-third-party",
+        "cash-assistance"
+      ]
+    },
+    "protection-for-third-party": {
+      "id": "protection-for-third-party",
+      "type": "field-collapsible",
+      "settings": {
+        "tag": "Protection for Third Party",
+        "tagVariant": "normal",
+        "title": "Coverage for Damages and Injuries to Others",
+        "description": "Legal liability is the responsibility for any harm or damage cause to others in case of an accident. Get protected in case it happens.",
+        "note": "",
+        "checkboxCheckedLabel": "Added",
+        "checkboxUnCheckedLabel": "Add"
+      },
+      "children": [
+        "llop",
+        "lltp"
+      ]
+    },
+    "llop": {
+      "id": "llop",
+      "type": "field",
+      "refFieldId": "#llop"
+    },
+    "lltp": {
+      "id": "lltp",
+      "type": "field",
+      "refFieldId": "#lltp"
+    },
+    "cash-assistance": {
+      "id": "cash-assistance",
+      "type": "field-collapsible",
+      "settings": {
+        "tag": "Cash Assistance",
+        "tagVariant": "normal",
+        "title": "Get Compensated for Car Repairs",
+        "description": "Receive compensation during the period that the vehicle is in the workshop (up to 10 days).",
+        "note": "",
+        "checkboxCheckedLabel": "Added",
+        "checkboxUnCheckedLabel": "Add"
+      },
+      "children": [
+        "cash-assistance-choose-plan",
+        "cash-assistance-coverage"
+      ]
+    },
+    "cash-assistance-choose-plan": {
+      "id": "cash-assistance-choose-plan",
+      "type": "field",
+      "refFieldId": "#cash-assistance-choose-plan"
+    },
+    "cash-assistance-coverage": {
+      "id": "cash-assistance-coverage",
+      "type": "field",
+      "refFieldId": "#cash-assistance-coverage"
+    },
+    "replacement-cost-accordion": {
+      "id": "replacement-cost-accordion",
+      "type": "accordion",
+      "settings": {
+        "title": "Replacement Cost"
+      },
+      "children": [
+        "cost-of-replacement"
+      ]
+    },
+    "cost-of-replacement": {
+      "id": "cost-of-replacement",
+      "type": "field-collapsible",
+      "settings": {
+        "tag": "Cost of Replacement",
+        "tagVariant": "normal",
+        "title": "Car Accessories Coverage with cost of replacement",
+        "note": "Example note for collapsible here",
+        "checkboxCheckedLabel": "Added",
+        "checkboxUnCheckedLabel": "Add"
+      },
+      "children": [
+        "smart-key-replacement"
+      ]
+    },
+    "smart-key-replacement": {
+      "id": "smart-key-replacement",
+      "type": "field-combined",
+      "refFieldId": "smart-key-replacement",
+      "settings": {
+        "title": "Smart Key Replacement Coverage",
+        "description": "Covered for a total of up to RM3,000 to replace lost, stolen or damaged car smart key."
+      },
+      "children": [
+        "smart-key-replacement-sum-insured"
+      ]
+    },
+    "smart-key-replacement-sum-insured": {
+      "id": "smart-key-replacement-sum-insured",
+      "type": "field",
+      "refFieldId": "#smart-key-replacement-sum-insured"
+    }
+  },
+  "root": [
+    "step-1"
+  ]
+}
